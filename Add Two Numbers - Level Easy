@@ -1,0 +1,10 @@
+nums =[]
+def twosum(nums, target):
+    for x in range(len(nums)):
+        if nums[x] + nums[x+1]==target:
+            return [x,x+1]
+        else:
+            print('nothing found')
+    x += 1
+        
+twosum([2,7,11,15],9)
